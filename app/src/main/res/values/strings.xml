@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Faster Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="so_m">so\'m</string>
+    <string name="faster">Faster</string>
+    <string name="food">Food</string>
+    <string name="categories">Categories</string>
+    <string name="burgers">Burgers</string>
+</resources>
