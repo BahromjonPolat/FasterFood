@@ -44,13 +44,13 @@ public class FoodListActivity extends AppCompatActivity {
     }
 
     private void addFood() {
-        foods.add(new Food("id", "Hamburger", "Burger", chef, "Very tasty burger", 18000.00, R.drawable.burger_1));
-        foods.add(new Food("id", "Pizza Italiano", "Pizza", chef, "Very tasty pizza", 65000.00, R.drawable.pizza_piese));
-        foods.add(new Food("id", "Jazz Kebab", "Kebab", chef, "Jalal's kebab", 10000.00, R.drawable.kebab_1));
-        foods.add(new Food("id", "Free cheers", "Free", chef, "Very tasty free", 18000.00, R.drawable.hamburger_with_free));
-        foods.add(new Food("id", "Hamburger", "Burger", chef, "Very tasty burger", 18000.00, R.drawable.burger_1));
-        foods.add(new Food("id", "Pizza Italiano", "Pizza", chef, "Very tasty pizza", 65000.00, R.drawable.pizza_piese));
-        foods.add(new Food("id", "Jazz Kebab", "Kebab", chef, "Jalal's kebab", 10000.00, R.drawable.kebab_1));
-        foods.add(new Food("id", "Free cheers", "Free", chef, "Very tasty free", 18000.00, R.drawable.hamburger_with_free));
+        foods.add(new Food("id", "Hamburger", "Burger", chef, "Very tasty burger", 18000.00, R.drawable.burger_1, 4.5));
+        foods.add(new Food("id", "Pizza Italiano", "Pizza", chef, "Very tasty pizza", 65000.00, R.drawable.pizza_piese, 4.5));
+        foods.add(new Food("id", "Jazz Kebab", "Kebab", chef, "Jalal's kebab", 10000.00, R.drawable.kebab_1, 5.0));
+        foods.add(new Food("id", "Free cheers", "Free", chef, "Very tasty free", 18000.00, R.drawable.hamburger_with_free, 4.2));
+        foods.add(new Food("id", "Hamburger", "Burger", chef, "Very tasty burger", 18000.00, R.drawable.burger_1, 4.8));
+        foods.add(new Food("id", "Pizza Italiano", "Pizza", chef, "Very tasty pizza", 65000.00, R.drawable.pizza_piese, 4.0));
+        foods.add(new Food("id", "Jazz Kebab", "Kebab", chef, "Jalal's kebab", 10000.00, R.drawable.kebab_1, 3.9));
+        foods.add(new Food("id", "Free cheers", "Free", chef, "Very tasty free", 18000.00, R.drawable.hamburger_with_free, 4.1));
     }
 }
